@@ -1,0 +1,24 @@
+{
+  "name": "my-video-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts VideoAd out/video.mp4",
+    "still": "remotion still src/index.ts VideoAd out/still.png"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@remotion/cli": "^4.0.438",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.438",
+    "typescript": "^6.0.2"
+  }
+}
